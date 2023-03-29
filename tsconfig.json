@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Node 18",
+  "compilerOptions": {
+    "lib": ["es2022"],
+    "module": "commonjs",
+    "target": "es2022",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "declaration": true /* Generates corresponding '.d.ts' file. */,
+    "sourceMap": true /* Generates corresponding '.map' file. */,
+    "outDir": "./lib" /* Redirect output structure to the directory. */,
+    "strict": true /* Enable all strict type-checking options. */,
+    // "noUnusedLocals": true /* Report errors on unused locals. */,
+    // "noUnusedParameters": true /* Report errors on unused parameters. */,
+    // "noImplicitReturns": true /* Report error when not all code paths in function return a value. */,
+    // "noFallthroughCasesInSwitch": true /* Report errors for fallthrough cases in switch statement. */,
+    // "forceConsistentCasingInFileNames": true /* Disallow inconsistently-cased references to the same file. */,
+    "resolveJsonModule": true
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": []
+}
+
+// {
+//   "compilerOptions": {
+
+//     "declaration": true /* Generates corresponding '.d.ts' file. */,
+//     "sourceMap": true /* Generates corresponding '.map' file. */,
+//     "outDir": "./lib" /* Redirect output structure to the directory. */,
+//     "strict": true /* Enable all strict type-checking options. */,
+//     "noUnusedLocals": true /* Report errors on unused locals. */,
+//     "noUnusedParameters": true /* Report errors on unused parameters. */,
+//     "noImplicitReturns": true /* Report error when not all code paths in function return a value. */,
+//     "noFallthroughCasesInSwitch": true /* Report errors for fallthrough cases in switch statement. */,
+//     "forceConsistentCasingInFileNames": true /* Disallow inconsistently-cased references to the same file. */,
+//     "resolveJsonModule": true,
+//     "pretty": false,
+//     "skipLibCheck": true
+//   },
+//   "include": ["src/", "src/generate-response.ts"],
+//   "compileOnSave": false
+// }
